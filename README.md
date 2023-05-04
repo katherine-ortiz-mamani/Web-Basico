@@ -1,2 +1,4 @@
 # Web-Basico
-Practica CSESI
+Práctica CSESI
+Grupo 1
+Este repositorio contiene código en HTML y CSS
