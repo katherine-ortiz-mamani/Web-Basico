@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
 .home{
     width: 100%;
     height: 100vh;
     background-image: url(images/bg-desktop\ 1.svg);
     background-color: #674BAF;
-    background-size: cover;
 }
 
 .logo{
@@ -26,3 +32,35 @@
     top: 188px;
     left: 72px; 
 }
+ .content{
+    background-color: aqua;
+    color: white;  
+    position: absolute;
+    width: 490px;
+    height: 209px;
+    left: 813px;
+    top: 236px;
+ }
+
+ .titulo{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .descrip{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+ }
+
+ .reg{
+    color: #674BAF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    width: 195px;
+    height: 56px;
+    top: 61.33%;
+    bottom: 31.38%;
+
+
+ }
