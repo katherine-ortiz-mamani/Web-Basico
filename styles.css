@@ -65,9 +65,11 @@ body{
     height: 56px;
     top: 61.33%;
     bottom: 31.38%;
-    border-radius: 60px;
+    border-radius: 50px;
     border: none;
     position: relative;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .reg:hover{
@@ -87,7 +89,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
     position: relative;
     width: 151px;
     height: 41px;
@@ -117,13 +118,25 @@ body{
 }
 
 .facebook:hover{
-    filter: invert(1);
+    background-image: url(images/facebook_hover.svg);
 }
 
 .twitter:hover{
-    filter: invert(50%);
+    background-image: url(images/twitter_hover.svg);
 }
 
 .instagram:hover{
-    filter: invert(1);
+    background-image: url(images/instagram_hover.svg);
+}
+
+.facebook:active{
+    background-image: url(images/facebook_press.svg);
+}
+
+.twitter:active{
+    background-image: url(images/twitter_press.svg);
+}
+
+.instagram:active{
+    background-image: url(images/instagram_press.svg);
 }
