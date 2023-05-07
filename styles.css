@@ -87,6 +87,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: blue;
     position: relative;
     width: 151px;
     height: 41px;
@@ -98,7 +99,7 @@ body{
     width: 40px;
     height: 40px;
     margin: 0%;
-    background-image: url(images/facebook_logo.svg);
+    background-image: url(images/facebook_logo.svg);   
 }
   
 .twitter{
@@ -115,12 +116,14 @@ body{
     background-image: url(images/instagram_logo.svg);
 }
 
+.facebook:hover{
+    filter: invert(1);
+}
 
-  
-  
-  
-  
-  
-  
-  
-  
+.twitter:hover{
+    filter: invert(50%);
+}
+
+.instagram:hover{
+    filter: invert(1);
+}
